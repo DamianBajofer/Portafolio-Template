@@ -1,0 +1,99 @@
+#blog{
+    margin-top:30vmin;
+}
+#blog .top{
+    width:35vmin;
+    margin:0 auto;
+}
+#blog .top .works{
+    background:url('../images/Above\ title\ line.svg') center left no-repeat;
+    background-size:2vmin 4vmin;
+    font-size:1.5vmin;
+    color:#656D72;
+    letter-spacing:6px;
+    font-weight:bold;
+    padding-left:3vmin;
+    margin-bottom:2vmin;
+}
+#blog .top .title{
+    font-size:5vmin;
+    color:rgba(0,0,0,1);
+    font-weight:bold;
+}
+#blog .content{
+    width:100%;
+    margin:15vmin auto;
+    text-align:center;
+}
+#blog .content .section{
+    width:45vmin;
+    height:100%;
+    display:inline-block;
+}
+#blog .content .section .img{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius:6px 6px;
+    width:100%;
+    height:30vmin;
+    margin-bottom:3vmin;
+}
+#blog .content .section .title{
+    font-size:2vmin;
+    color:rgba(0,0,0,0.8);
+    font-weight:bold;
+    text-align:left;
+    padding-left:2vmin;
+    margin-bottom:2vmin;
+}
+#blog .content .section .date{
+    font-size:1.5vmin;
+    color:#656D72;
+    text-align:left;
+    padding-left:3vmin;
+}
+#blog .content .section .description{
+    width:85%;
+    font-size:1.5vmin;
+    color:#656D72;
+    text-align:left;
+    line-height:3vmin;
+    margin-top:4vmin;
+    padding-left:3vmin;
+}
+#blog .content .section .more{
+    font-size:1.5vmin;
+    color:#656D72;
+    text-align:center;
+    margin-top:4vmin;
+}
+#blog .content .section.item1 .img{
+    background-image:url('../images/blog/001.svg');
+}
+#blog .content .section.item2 .img{
+    background-image:url('../images/blog/002.svg');
+}
+#blog .content .section.item3 .img{
+    background-image:url('../images/blog/003.svg');
+}
+#blog .content .section .bottom{
+    padding:2vmin;
+}
+#blog .content .section .bottom .tag{
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:4px 4px;
+    font-size:1.5vmin;
+    text-align:center;
+    color:#656D72;
+    padding:1vmin;
+    float:left;
+}
+#blog .content .section .bottom .link{
+    background:url('../images/blog/link.svg') center center no-repeat;
+    background-size:80% 80%;
+    width:5vmin;
+    height:4vmin;
+    margin-left:4vmin;
+    float:left;
+}

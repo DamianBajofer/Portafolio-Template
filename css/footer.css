@@ -1,0 +1,36 @@
+#footer{
+    /*background-color:red;*/
+    margin-top:20vmin;
+    padding:5vmin;
+}
+#footer .social{
+    /*background-color:yellow;*/
+    text-align:center;
+}
+#footer .social .icon{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:3vmin;
+    height:3vmin;
+    margin-right:1vmin;
+    display:inline-block;
+}
+#footer .social .icon.instagram{
+    background-image:url('../images/Instagram.svg');
+}
+#footer .social .icon.github{
+    background-image:url('../images/Github.svg');
+}
+#footer .social .icon.twitter{
+    background-image:url('../images/Twitter.svg');
+}
+#footer .social .icon.link{
+    background-image:url('../images/Linkedin.svg');
+}
+#footer .copy{
+    text-align:center;
+    color:#656D72;
+    font-size:2vmin;
+    line-height:5vmin;
+}

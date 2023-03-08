@@ -1,0 +1,89 @@
+#hero{
+    min-width:100vmin;
+    margin-top:10vmin;
+    padding:10vmin;
+}
+#hero .img{
+    width:40vmin;
+    height:43vmin;
+    float:right;
+    transform:rotate(-10deg);
+    position:relative;
+}
+#hero .img .background{
+    background-color:#7E74F1;
+    border-radius:10px 10px;
+    width:80%;
+    height:80%;
+    top:10%;
+    left:10%;
+    float:right;
+    position:absolute;
+}
+#hero .img .me{
+    background:url('../images/lines.svg') top right no-repeat, url('../images/image-me.png') bottom left no-repeat;
+    background-size:55% 55%, 65% 80%;
+    background-color:#EAE6FE;
+    border-radius:10px 10px;
+    width:80%;
+    height:80%;
+    top:10%;
+    left:10%;
+    float:left;
+    transform:rotate(10deg);
+    position:absolute;
+}
+#hero .left-section{
+    width:50vmin;
+    float:left;
+}
+#hero .present{
+    background:url('../images/Above\ title\ line.svg') center left no-repeat;
+    background-size:2vmin 4vmin;
+    font-size:1.5vmin;
+    color:#656D72;
+    margin-bottom:2vmin;
+    padding-left:4vmin;
+}
+#hero .name,
+#hero .name span{
+    font-size:6vmin;
+    font-weight:bold;
+    margin-bottom:4vmin;
+}
+#hero .name{
+    color:rgba(0,0,0,1);
+}
+#hero .name span{
+    color:#7E74F1;
+}
+#hero .description{
+    color:rgba(0,0,0,1);
+    font-size:2vmin;
+    line-height:30px;
+    margin-bottom:2vmin;
+}
+#hero .social{
+    height:5vmin;
+}
+#hero .social .icon{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:70% 70%;
+    width:5vmin;
+    height:5vmin;
+    margin-right:2vmin;
+    float:left;
+}
+#hero .social .icon.instagram{
+    background-image:url('../images/Instagram.svg');
+}
+#hero .social .icon.github{
+    background-image:url('../images/Github.svg');
+}
+#hero .social .icon.twitter{
+    background-image:url('../images/Twitter.svg');
+}
+#hero .social .icon.link{
+    background-image:url('../images/Linkedin.svg');
+}

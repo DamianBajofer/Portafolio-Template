@@ -1,0 +1,65 @@
+#services{
+    /*background-color:yellow;*/
+    padding:10vmin;
+}
+#services .top{
+    width:35vmin;
+    margin:10vmin auto;
+}
+#services .top .services{
+    background:url('../images/Above\ title\ line.svg') center left 2vmin no-repeat;
+    background-size:2vmin 4vmin;
+    font-size:1.5vmin;
+    color:#656D72;
+    letter-spacing:6px;
+    font-weight:bold;
+    padding-left:5vmin;
+    margin-bottom:2vmin;
+}
+#services .top .title{
+    font-size:5vmin;
+    color:rgba(0,0,0,1);
+    text-align:center;
+    font-weight:bold;
+}
+#services .content{
+    /*background-color:red;*/
+    width:120vmin;
+    margin:15vmin auto;
+}
+#services .content .section{
+    /*background-color:blue;*/
+    width:40vmin;
+    height:100%;
+    float:left;
+}
+#services .content .section .icon{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    /*background-color:gray;*/
+    width:10vmin;
+    height:10vmin;
+    margin:2vmin auto;
+}
+#services .content .section .title{
+    text-align:center;
+    font-size:2vmin;
+    color:rgba(0,0,0,1);
+    font-weight:bold;
+    margin-bottom:2vmin;
+}
+#services .content .section .description{
+    text-align:center;
+    font-size:2vmin;
+    color:rgba(0,0,0,0.8);
+}
+#services .content .section.design .icon{
+    background-image:url('../images/services/001.svg');
+}
+#services .content .section.app .icon{
+    background-image:url('../images/services/002.svg');
+}
+#services .content .section.web .icon{
+    background-image:url('../images/services/003.svg');
+}

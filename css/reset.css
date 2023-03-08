@@ -1,0 +1,43 @@
+/**
+    Reiniciar todos los estilos para lograr una mayor compatibilidad
+    de aspectos en todos los navegadores posibles.
+    Para esto eliminamos todos los efectos, margenes y paddings de todos
+    los objetos html.
+*/
+@charset "UTF-8";
+*{
+	border:none;
+	border-radius:0px 0px;
+	color:#000;
+	font-size:4vmin;
+	font-family:sans-serif;
+	outline: 0px;
+	text-decoration:none;
+	list-style:none;
+	margin:0px 0px;
+	padding:0px 0px;
+	top:0px;
+	left:0px;
+	user-select:none;
+    overflow:hidden;
+}
+*:hover{
+	outline: 0px;
+}
+*:active{
+	outline: 0px;
+}
+*:focus{
+	border: 0px;
+	outline: 0px;
+}
+*:normal{
+	outline: 0px;
+}
+html, body{
+    background-color:#1E2024;
+	/*width:100vw;*/
+	width:100%;
+	min-height:100%;
+	overflow:auto;
+}

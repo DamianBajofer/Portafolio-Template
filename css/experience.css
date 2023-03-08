@@ -1,0 +1,86 @@
+#experience{
+    /*background-color:yellow;*/
+    padding:10vmin;
+}
+#experience .left{
+    /*background-color:red;*/
+    float:left;
+}
+#experience .left .top{
+    margin-bottom:5vmin;
+}
+#experience .left .top .experience{
+    background:url('../images/Above\ title\ line.svg') center left no-repeat;
+    background-size:2vmin 4vmin;
+    font-size:1.5vmin;
+    color:#656D72;
+    letter-spacing:6px;
+    font-weight:bold;
+    padding-left:3vmin;
+    margin-bottom:2vmin;
+}
+#experience .left .top .title{
+    font-size:5vmin;
+    color:rgba(0,0,0,1);
+    font-weight:bold;
+}
+#experience .left .menu{
+    padding:2vmin 6vmin 2vmin 5vmin;
+}
+#experience .left .menu .item{
+    color:#232E35;
+    font-size:2vmin;
+    margin-bottom:5vmin;
+}
+#experience .left .menu .item.selected{
+    background:url('../images/experience/right.svg') top -1vmin right 1vmin no-repeat;
+    background-size:3.5vmin 3.5vmin;
+    color:#7E74F1;
+}
+#experience .right{
+    /*background-color:blue;*/
+    float:right;
+}
+#experience .right .divider{
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    height:1px;
+    margin:5vmin auto 0vmin auto;
+}
+#experience .right .title{
+    font-size:2.5vmin;
+    line-height:5vmin;
+}
+#experience .right .city{
+    font-size:1.7vmin;
+    line-height:3vmin;
+    color:#656D72;
+}
+#experience .right .date{
+    font-size:1.7vmin;
+    line-height:3vmin;
+    color:#656D72;
+}
+#experience .right .tags{
+    margin-top:2vmin;
+}
+#experience .right .tags .tag{
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:4px 4px;
+    font-size:1.5vmin;
+    text-align:center;
+    color:#656D72;
+    margin-right:2vmin;
+    padding:1vmin;
+    float:left;
+}
+#experience .right .description{
+    margin-top:5vmin;
+}
+#experience .right .description ul li{
+    background:url('../images/Above\ title\ line.svg') center left 1vmin no-repeat;
+    background-size:1vmin 2vmin;
+    font-size:1.7vmin;
+    color:#656D72;
+    line-height:4vmin;
+    padding-left:3vmin;
+}

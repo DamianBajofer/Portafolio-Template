@@ -1,0 +1,48 @@
+#contact{
+    margin-top:10vmin;
+    padding:10vmin;
+}
+#contact .left{
+    width:75vmin;
+    float:left;
+}
+#contact .left table tr td{
+    color:rgba(0,0,0,0.5);
+    font-size:2vmin;
+    padding:2vmin;
+}
+#contact .left .button{
+    background-color:#7E74F1;
+    border-radius:4px 4px;
+    text-align:center;
+    color:white;
+    font-size:2vmin;
+    margin-top:20vmin;
+    padding:2vmin;
+}
+#contact .right{
+    float:right;
+}
+#contact .right .item{
+    background-position:center left;
+    background-repeat:no-repeat;
+    background-size:5vmin 5vmin;
+    margin-bottom:5vmin;
+    padding-left:6vmin;
+}
+#contact .right .item .name{
+    font-size:2vmin;
+}
+#contact .right .item .data{
+    font-size:1.8vmin;
+    color:rgba(0,0,0,0.5);
+}
+#contact .right .item.address{
+    background-image:url('../images/contact/address.svg');
+}
+#contact .right .item.phone{
+    background-image:url('../images/contact/phone.svg');
+}
+#contact .right .item.email{
+    background-image:url('../images/contact/email.svg');
+}

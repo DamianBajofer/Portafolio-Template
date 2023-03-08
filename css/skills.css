@@ -1,0 +1,115 @@
+#skills{
+    /*background-color:yellow;*/
+    padding:10vmin;
+}
+#skills .left{
+    /*background-color:red;*/
+    float:left;
+}
+#skills .left .top{
+    margin-bottom:5vmin;
+}
+#skills .left .top .skills{
+    background:url('../images/Above\ title\ line.svg') center left no-repeat;
+    background-size:2vmin 4vmin;
+    font-size:1.5vmin;
+    color:#656D72;
+    letter-spacing:6px;
+    font-weight:bold;
+    padding-left:3vmin;
+    margin-bottom:2vmin;
+}
+#skills .left .top .title{
+    font-size:5vmin;
+    color:rgba(0,0,0,1);
+    font-weight:bold;
+}
+#skills .left .sections{
+    position:relative;
+}
+#skills .left .sections .border-left{
+    border-left:1px solid #F1F1F1;
+    top:2.5%;
+    left:1%;
+    height:66%;
+    position:absolute;
+}
+#skills .left .sections .section .bullet1{
+    background-color:#F1F1F1;
+    border-radius:50% 50%;
+    width:1vmin;
+    height:1vmin;
+    top:2%;
+    position:absolute;
+}
+#skills .left .sections .section .bullet2{
+    background-color:#F1F1F1;
+    border-radius:50% 50%;
+    width:1vmin;
+    height:1vmin;
+    top:35%;
+    position:absolute;
+}
+#skills .left .sections .section .bullet3{
+    background-color:#F1F1F1;
+    border-radius:50% 50%;
+    width:1vmin;
+    height:1vmin;
+    top:68%;
+    position:absolute;
+}
+#skills .left .sections .section{
+    margin-left:2vmin;
+    margin-bottom:10vmin;
+}
+#skills .left .sections:last-child{
+    margin-bottom:0vmin;
+}
+#skills .left .sections .section .title{
+    font-size:3vmin;
+}
+#skills .left .sections .section .education{
+    font-size:2vmin;
+    color:#656D72;
+    line-height:5vmin;
+}
+#skills .left .sections .section .date{
+    font-size:2vmin;
+    line-height:5vmin;
+}
+#skills .right{
+    width:60vmin;
+    margin-top:14vmin;
+    float:right;
+}
+#skills .right .description{
+    color:#656D72;
+    font-size:2.5vmin;
+    margin-bottom:10vmin;
+}
+#skills .right .skills-level .section{
+    margin-bottom:5vmin;
+}
+#skills .right .skills-level .section .lang{
+    font-size:2vmin;
+    line-height:5vmin;
+}
+#skills .right .skills-level .section .progress{
+    background-color:rgba(0,0,0,0.2);
+    border-radius:2px 2px;
+    height:1vmin;
+}
+#skills .right .skills-level .section .progress .fill{
+    background-color:#7E74F1;
+    border-radius:2px 2px;
+    height:1vmin;
+}
+#skills .right .skills-level .section.react .progress .fill{
+    width:70%;
+}
+#skills .right .skills-level .section.angular .progress .fill{
+    width:50%;
+}
+#skills .right .skills-level .section.javascript .progress .fill{
+    width:60%;
+}

@@ -1,0 +1,98 @@
+#portfolio{
+    /*background-color:yellow;*/
+    padding:10vmin;
+}
+#portfolio .top .works{
+    background:url('../images/Above\ title\ line.svg') center left no-repeat;
+    background-size:2vmin 4vmin;
+    font-size:1.5vmin;
+    color:#656D72;
+    letter-spacing:6px;
+    font-weight:bold;
+    padding-left:3vmin;
+    margin-bottom:2vmin;
+}
+#portfolio .top .title{
+    font-size:5vmin;
+    color:rgba(0,0,0,1);
+    font-weight:bold;
+}
+#portfolio .top .nav{
+    /*background-color:red;*/
+    width:12vmin;
+    height:5vmin;
+    margin-top:-7vmin;
+    float:right;
+}
+#portfolio .top .nav .left{
+    background:url('../images/portfolio/navigate/Left.svg') center center no-repeat;
+    background-size:80% 80%;
+    width:5vmin;
+    height:5vmin;
+    float:left;
+}
+#portfolio .top .nav .right{
+    background:url('../images/portfolio/navigate/Right.svg') center center no-repeat;
+    background-size:80% 80%;
+    width:5vmin;
+    height:5vmin;
+    float:right;
+}
+#portfolio .content{
+    /*background-color:red;*/
+    width:100%;
+    margin:15vmin auto;
+    text-align:center;
+}
+#portfolio .content .section{
+    /*background-color:blue;*/
+    width:35vmin;
+    height:100%;
+    padding:2vmin;
+    display:inline-block;
+}
+#portfolio .content .section .img{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:35vmin;
+    margin-bottom:3vmin;
+}
+#portfolio .content .section .title{
+    font-size:2vmin;
+    color:rgba(0,0,0,0.8);
+    font-weight:bold;
+    text-align:left;
+    padding-left:2vmin;
+    margin-bottom:2vmin;
+}
+#portfolio .content .section.item1 .img{
+    background-image:url('../images/portfolio/item001.svg');
+}
+#portfolio .content .section.item2 .img{
+    background-image:url('../images/portfolio/item002.svg');
+}
+#portfolio .content .section.item3 .img{
+    background-image:url('../images/portfolio/item003.svg');
+}
+#portfolio .content .section .bottom{
+    padding:2vmin;
+}
+#portfolio .content .section .bottom .tag{
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:4px 4px;
+    font-size:1.5vmin;
+    text-align:center;
+    color:#656D72;
+    padding:1vmin;
+    float:left;
+}
+#portfolio .content .section .bottom .link{
+    background:url('../images/portfolio/link.svg') center center no-repeat;
+    background-size:80% 80%;
+    width:5vmin;
+    height:4vmin;
+    margin-left:4vmin;
+    float:left;
+}
